@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+}
+.col6{
+    padding: 0 6px;
+    flex-basis: 50%;
+}
+.max-width{
+    max-width: 1032px;
+}
+.text-center{
+    justify-content: center;
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.full-height{
+    height: 100%;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .box{
+        background-color: red;
+    }
+}
+@media (max-width: 500px) {
+    .col6{
+        flex-basis: 100%;
+    }
+}

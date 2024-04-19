@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+}
+.b-color{
+    background-color: rgb(239, 241, 221);
+}
+.container{
+    justify-content: center;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+.header{
+    padding: 33px 0;
+    background-color: rgb(190, 41, 38); height:189px ;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    display: inline-flex;
+}
+.nav a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(247, 249, 227);
+    padding: 33px;
+    column-gap: 46;
+}
+.akronim-regular {
+    font-family: "Akronim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.burn{
+    font-size: 90px;
+    color:rgb(16, 197, 238);
+    padding-top: 5px;
+    background-image: url(../images/dustin-tramel-KuuQczwD4IA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 353px;
+}
+.button-1{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(247, 249, 227);
+    background-color: rgb(190, 41, 38);
+    max-width: 245px;
+    max-height: 50px;
+}
+.align{
+    display: inline-flexbox;
+    align-items: center;
+}
+.banner{
+    background-color: rgb(9, 100, 121); 
+    height: 118px;
+}
+.green-b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color: rgb(247, 249, 227);
+}
+.akaya-telivigala-regular{
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.h1{
+    font-size: 96px;
+    color: rgb(190, 41, 38);
+}
+.Caveat{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.Pic1{
+    display: flex;
+    align-items: center;
+    gap: 107px;
+    padding-right: 20px;
+    font-size: 64px;
+    color: rgb(190, 41, 38);
+}
+.back{
+    background-image: url(../images/jonathan-borba-PKQNnZCWwzs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 594px;
+    width: 100%;
+}
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/jonathan-borba-PKQNnZCWwzs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 594px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.P{
+    font-size: 150px;
+    color: rgb(241, 235, 235);
+}
+.pol{
+    font-size: 32px;
+    text-decoration: underline;
+    padding-bottom: 40px;
+    color: rgb(247, 249, 227);
+    
+}
+.history{
+    display: inline-block;
+    font-size: 64px;
+    padding: 10px;
+    color: rgb(247, 249, 227);
+    background-color: rgb(190, 41, 38);
+    width: 1032px;
+    height: 386px;
+    margin-bottom: 70px;
+}
+.Butt{
+    font-size: 40px;
+    color: rgb(247, 249, 227);
+    text-decoration: none;
+    background-color: rgb(9, 100, 121);
+    width: 245px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.soc{
+    font-size: 70px;
+    color: rgb(247, 249, 227);
+    padding-top: 200px;
+    background-image: url(../images/nathaniel-sison-34OlyMM3QGw-unsplash.jpg);
+    width: 100%;
+    height: 900px;
+    margin-bottom: 70px;
+}
+.butt2{
+    font-size: 80px;
+    color:rgb(247, 249, 227);
+    text-decoration: none;
+    background-color: rgb(9, 100, 121);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.order{
+    display: inline-block;
+    align-items: center;
+    font-size: 70px;
+    color: rgb(222, 224, 197);
+    background-image: url(../images/eiliv-aceron-q4pns2LtGwk-unsplash.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 70px;
+}
+.obut{
+    font-size: 40px;
+    text-decoration: none;
+    color:rgb(247, 249, 227);
+    background-color: rgb(9, 100, 121);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.color{
+    background-color: rgb(190, 41, 38);
+    margin-bottom: 0;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    gap: 144px;
+}
+.topt{
+    font-size: 60px;
+    color:rgb(247, 249, 227) ;
+}
+.bsoc{
+    font-size: 35px;
+    color: rgb(247, 249, 227);
+}
+.bott{
+    font-size: 60px;
+    color: rgb(247, 249, 227);
+    margin-bottom: 0;
+}
+@media (max-width:500px) {
+    .b-color {
+        width: unset;
+        height: unset;
+    }
+    .burn {
+        font-size: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav a {
+        display: none;
+        font-size: 15px;
+        column-gap: 20px;
+        
+        
+    }
+    .nav {
+        padding-top: 10px;
+        width: unset;
+        height: unset;
+    }
+    .Pic1 {
+        flex-wrap: wrap;
+    }
+    .history {
+        font-size: 50px;
+    }
+    .butt {
+        font-size: 20px;
+        width: unset;
+    }
+    .soc {
+        font-size: 40px;
+        width: unset;
+        height: unset;
+        background-position: bottom;
+        padding-bottom: 200px;
+    }
+    .butt2 {
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+    .order {
+        flex-wrap: wrap;
+        font-size: 35px;
+        padding-top: 150px;
+    }
+    .obut {
+        flex-basis: 100%;
+        font-size: 30px;
+    }
+    .topt, .bott {
+        flex-wrap: wrap;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .down {
+        width: unset;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .bsoc {
+        flex-basis: 100%;
+        font-size: 30px;
+    }
+    .P {
+        font-size: 40px;
+    }
+    .pol {
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .history {
+        flex-wrap: wrap;
+        font-size: 30px;
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: unset;
+    }
+    .Pic1 {
+        font-size: 30px;
+    }
+    .bott {
+        margin-bottom: unset;
+    }
+    .h1 {
+        flex-wrap: wrap;
+        font-size: 40px;
+    }
+}
